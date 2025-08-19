@@ -13,8 +13,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="HTTP Client Abstract Tree.vi" Type="VI" URL="../HTTP Client Abstract Tree.vi"/>
-		<Item Name="HTTP Client Abstract.lvlib" Type="Library" URL="../HTTP Client Abstract.lvlib"/>
+		<Item Name="HTTP Client Abstract Tree.vi" Type="VI" URL="../lv_src/HTTP Client Abstract Tree.vi"/>
+		<Item Name="HTTP Client Abstract.lvlib" Type="Library" URL="../lv_src/HTTP Client Abstract.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="CFReleaseString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFString.llb/CFReleaseString.vi"/>
