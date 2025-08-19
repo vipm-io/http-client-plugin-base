@@ -14,8 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="HTTP Client Abstract Tree.vi" Type="VI" URL="../HTTP Client Abstract Tree.vi"/>
-		<Item Name="HTTP Client Abstract.lvclass" Type="LVClass" URL="../Classes/HTTP Client Abstract/HTTP Client Abstract.lvclass"/>
-		<Item Name="HTTP Client Base.lvclass" Type="LVClass" URL="../Classes/HTTP Client Base/HTTP Client Base.lvclass"/>
+		<Item Name="HTTP Client Abstract.lvlib" Type="Library" URL="../HTTP Client Abstract.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="CFReleaseString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFString.llb/CFReleaseString.vi"/>
