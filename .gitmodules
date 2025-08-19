@@ -1,0 +1,3 @@
+[submodule "external/reqwest-rs-labview"]
+	path = external/reqwest-rs-labview
+	url = https://github.com/JKISoftware/reqwest-rs-labview
