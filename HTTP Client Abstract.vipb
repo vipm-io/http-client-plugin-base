@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-08-19 10:27:18" Modified_Date="2025-08-19 13:05:39" Creator="Jim" Comments="" ID="4d7dfd9ad82236d0662ed3501fcbcdcb">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-08-19 10:27:18" Modified_Date="2025-08-22 14:30:17" Creator="Jim" Comments="" ID="602cd7cea2600bd55988d522f4805fd8">
   <Library_General_Settings>
     <Package_File_Name>vipm_io_http_client_abstract</Package_File_Name>
-    <Library_Version>0.1.0.14</Library_Version>
+    <Library_Version>0.2.0.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>lv_src</Library_Source_Folder>
     <Library_Output_Folder>built</Library_Output_Folder>
@@ -38,9 +38,10 @@ Includes a default implementation of the built-in LabVIEW HTTP Client and uses t
       <Copyright/>
       <Packager>visit homepage - various contributors</Packager>
       <URL>https://github.com/vipm-io/http-client-plugin-base</URL>
-      <Release_Notes>Initial BETA release provides the base http abstraction and default labview http client.
+      <Release_Notes>- added Status Code (e.g. 200, 400) u32 output of all HTTP METHODS, similar to the NI Advanced HTTP Client.
+- added a support VI to the base class for parsing status code from the http response headers, so that child/implementation classes can use it, if needed.
 
-Contributors: @justiceb @jimkring</Release_Notes>
+Contributors: @negentropicdev @justiceb @jimkring</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -460,7 +461,7 @@ Contributors: @justiceb @jimkring</Release_Notes>
         <Path>lv_src\Classes\Abstract HTTP Client\List Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>183678DEA8901D873F3FBF4924045683</GUID>
+      <GUID>B0294ACB41943AAA1E978532D2B31A6F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
