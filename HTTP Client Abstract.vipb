@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-08-19 10:27:18" Modified_Date="2025-08-22 22:09:25" Creator="Jim" Comments="" ID="51803296e9dd0b7761cc1dc3294dfdab">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-08-19 10:27:18" Modified_Date="2025-08-23 12:12:56" Creator="Jim" Comments="" ID="70c5490170cb3088f7282f865e4a808c">
   <Library_General_Settings>
     <Package_File_Name>vipm_io_http_client_abstract</Package_File_Name>
-    <Library_Version>0.3.0.16</Library_Version>
+    <Library_Version>0.3.1.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>lv_src</Library_Source_Folder>
     <Library_Output_Folder>built</Library_Output_Folder>
@@ -38,7 +38,7 @@ Includes a default implementation of the built-in LabVIEW HTTP Client and uses t
       <Copyright/>
       <Packager>visit homepage - various contributors</Packager>
       <URL>https://github.com/vipm-io/http-client-plugin-base</URL>
-      <Release_Notes>- converted abstract base class into an interface
+      <Release_Notes>- now only `Open Session.vi` and `Close Session.vi` require overrides, so that implementations can choose which ones to override. Default implementations will return errors so that callers know that a plug-in is missing that method.
 
 Contributors: @negentropicdev @justiceb @jimkring</Release_Notes>
     </Description>
@@ -460,7 +460,7 @@ Contributors: @negentropicdev @justiceb @jimkring</Release_Notes>
         <Path>lv_src\Classes\Abstract HTTP Client\List Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F698EF674A99B5198060AD88F6617949</GUID>
+      <GUID>26BE9C65A8555CC53C803D149A66A6D5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
